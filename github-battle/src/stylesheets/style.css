@@ -1,0 +1,219 @@
+@import url('./general.css');
+
+/* Custom Styles */
+
+.header .links{
+        margin-right: 2rem;
+        color: black;
+        font-weight: 700;
+        font-size: 1.25rem;
+        
+}
+
+.header .active-link{
+    color: rgb(124, 34, 34);
+}
+
+.header div{
+    padding: 1.25rem 0;
+}
+
+/* Popular Repos */
+.languages {
+    margin-bottom: 2rem;
+}
+
+.languages li{
+    margin: 2rem  1rem;
+    font-weight: 700;
+}
+
+.languages li:hover{
+     cursor: pointer;
+     color: rgb(160, 52, 52);
+}
+
+.active-lang{
+    color: rgb(124, 34, 34);
+}
+
+.repo-details{
+    text-align: center;
+    background-color:rgb(235,235,235);
+    padding: 2rem;
+    border-radius: .25rem;
+    min-height: 30rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+
+.repo-details h2::-webkit-scrollbar{
+    display: none;
+}
+
+.repo-details li, .repo-details h1, .repo-details h2 {
+   width: 100%;
+
+}
+
+.repo-details li{
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.repo-details h1{
+    font-size: 2.2rem;
+    overflow: hidden;
+}
+
+.repo-details h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(125, 20, 20);
+    margin-bottom: 2rem;
+}
+
+.repo-details li .fas{
+    width: 1rem;
+    margin-right: 1rem;
+}
+
+.repo-details li .fa-user{
+    color: rgb(255, 170, 73)
+}
+
+.repo-details li .fa-star{
+    color: rgb(255, 230, 0)
+}
+
+.repo-details li .fa-code-branch{
+    color: rgb(107, 187, 248)
+}
+
+.repo-details li .fa-exclamation-triangle{
+    color: rgb(252, 109, 121)
+}
+
+.img-container{
+    width: 50%;
+    margin: 1rem auto;
+    border-radius: .25rem;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.repo-details li .fa-compass{
+    color: rgb(97, 226, 97);
+}
+
+.repo-details li .fa-briefcase{
+    color: rgb(87, 209, 189)
+}
+
+.repo-details li .fa-users{
+    color: rgb(50, 82, 187)
+}
+
+.repo-details li .fa-user-friends{
+    color: rgb(235, 67, 235);
+}
+
+.repo-details li .fa-code{
+    color: rgb(32, 32, 29)
+}
+
+/* Battle */
+
+.battle-home h1{
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 3rem auto;
+}
+
+.battle-home .instruction h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.battle-home .instruction i{
+    padding: 1rem;
+    background-color: rgb(235,235,235);
+    border-radius: .25rem;
+    height: 16rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+}
+
+.battle-home .instruction .fa-user-friends{
+color: rgb(255, 170, 73);
+} 
+
+.battle-home .instruction .fa-fighter-jet{
+    color: rgb(105, 105, 105)
+}
+
+
+.battle-home .instruction .fa-trophy{
+   color: rgb(255, 230, 0);  
+} 
+
+/* Forms */
+.battle-home h5{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.battle-home form input{
+    height: 2rem;
+}
+
+
+
+.profile{
+    width: 48%;
+    background-color:rgb(235,235,235);
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: .5rem;
+    border-radius: .25rem;
+}
+
+.profile .img-box{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile h4{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(124, 34, 34);
+    margin-left: 1rem;
+}
+
+.profile .fa-times-circle{
+    color:rgb(240, 120, 120);
+    font-size: 1.6rem;
+}
+
+.profile .fa-times-circle:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.battle-box{
+    text-align: center;
+    padding: 2rem;
+}
+
+.red{
+    color: red;
+}
